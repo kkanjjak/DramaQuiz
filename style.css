@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "TTTtangsbudaejjigaeB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+  margin: 0;
+}
+#quizCanvas {
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: center;
+  width: 800px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.answer_input {
+  font-family: "TTTtangsbudaejjigaeB";
+  margin-top: 20px;
+  border: none;
+  border-bottom: 2px solid rgb(91, 91, 91);
+  width: 500px;
+  text-align: center;
+  color: rgb(105, 103, 103);
+  font-size: 30px;
+  transition: 0.5s ease-in-out;
+}
+.answer_input:focus {
+  outline: none;
+  border-bottom: 2px solid #fad985;
+}
+.imgContainer {
+  width: 100%;
+  height: 80%;
+  padding: 5px;
+  border: 5px solid #fad985;
+  border-radius: 15px;
+  z-index: 5;
+  object-fit: contain;
+}
+.textContainer {
+  font-family: "TTTtangsbudaejjigaeB";
+  font-size: 2.5em;
+  color: #e1b74c;
+  text-align: center;
+  vertical-align: middle;
+  width: 80%;
+  height: 10%;
+  padding: 100px 0px 100px 0px;
+  border: 5px solid #fad985;
+  border-radius: 15px;
+  z-index: 5;
+}
